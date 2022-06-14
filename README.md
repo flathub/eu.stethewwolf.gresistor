@@ -1,6 +1,6 @@
 # Gresistor flatpak
 
-This is the official [gResistor](https://gitlab.com/a2488/gresistor/activity) Flatpak.
+This is the official [gResistor](https://github.com/stethewwolf/gResistor) Flatpak.
 
 Users
 -----------------------
