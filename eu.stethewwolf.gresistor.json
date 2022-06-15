@@ -18,13 +18,14 @@
                 "install -Dm644 eu.stethewwolf.gresistor.desktop -t ${FLATPAK_DEST}/share/applications",
                 "install -Dm644 gresistor3/pixmaps/48x48/eu.stethewwolf.gresistor.png  -t ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/",
                 "install -Dm644 gresistor3/pixmaps/128x128/eu.stethewwolf.gresistor.png  -t ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/",
-                "install -Dm644 eu.stethewwolf.gresistor.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/"
+                "install -Dm644 eu.stethewwolf.gresistor.metainfo.xml -t ${FLATPAK_DEST}/share/app-info/xmls/eu.stethewwolf.gresistor.xml",
+                "install -Dm644 gresistor3/gresistor.glade -t ${FLATPAK_DEST}/share/gresistor/"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url" : "https://github.com/stethewwolf/gResistor.git",
-                    "commit": "1f065e5ba0c6998640862c7ece3678219fd2f659"
+                    "commit": "2a9953b959bcafd35696514113fa6869937764bd"
                 }
             ]
         }
