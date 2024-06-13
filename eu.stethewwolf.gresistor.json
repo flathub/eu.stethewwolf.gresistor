@@ -1,7 +1,7 @@
 {
     "app-id": "eu.stethewwolf.gresistor",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "gresistor3",
     "finish-args" : [
@@ -26,6 +26,10 @@
                     "type": "git",
                     "url" : "https://github.com/stethewwolf/gResistor.git",
                     "commit": "997447836ecd3e1a1a0563c60fa44d0de15ea042"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
